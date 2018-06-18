@@ -1,0 +1,8 @@
+export class User {
+    id: number
+    name: string
+    surname?: string
+    age: number
+    role: string
+    phone?: string
+}

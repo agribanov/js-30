@@ -1,0 +1,4 @@
+<h1>Users</h1>
+<app-users-list 
+  [users]="users$ | async"
+  (deleteUser)="onDeleteUser($event)"></app-users-list>
